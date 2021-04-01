@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enduro.Krd</title>
+    <link rel="shortcut icon" href="img/shortcut1.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    <!--slider--------->
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+    <script type="text/javascript" src="js/lightslider.js"></script>
+</head>
+
+
+<body>
+    <div id="fullpage">
+        <!--section1------------------->
+        <section>
+            <!-- navigation------------>
+            <nav>
+                <!--logo--------------->
+                <div class="logo"><a href="tel:+79181383991">+7 (918) 138-39-91</a></div>
+                <!--right-menu-------->
+                <div class="r-menu">
+                    <a href="mailto:Pro.enduro@mail.ru">Pro.enduro@mail.ru</a>
+
+                </div>
+            </nav>
+
+            <!-- text------------>
+            <div class="text">
+                <div class="earth">
+                    <span>E</span>
+                    <span>N</span>
+                    <span>D</span>
+                    <span>U</span>
+                    <span>R</span>
+                    <span>O</span>
+                </div>
+                <h1>Туры по Краснодарскому краю</h1>
+
+            </div>
+
+            <!--social----------->
+            <div class="social">
+
+                <div class="social-icons">
+                    <a href=" https://vk.com/pro.enduro" target="_blank"><i class="vk-icon"><img src="img/vk-icon.png" style="width: 40px" title="Вконтакте" ></i></a>
+                    <a href="https://instagram.com/pro.enduro_?igshid=atmasdeapwog" target="_blank"><i class="ins-icon"><img src="img/ins-icons.png" style="width: 30px;" title="Инстаграм"></i></a>
+                    <a href="https://www.youtube.com/watch?v=KTx1aijM-0g" target="_blank"><i class="youtube-icon"><img src="img/youtube.png" style="width: 47px;" title="YouTube"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--section2------------------->
+        <section>
+            <!--heading------------>
+            <div class="explore-h">
+                <h1>Туры построены по схеме радиальных однодневных выездов. Маршруты проходят как по горам, так и по дорогам общего пользования. Сложность маршрутов - легкая и средняя, требуется опыт городской езды на мото и наличие водительского удостоверения
+                    категории "А".</h1>
+                <p>В нашем мотопарке лучшая европейская техника для любого уровня катания. В прокате более двадцати комплектов экипировки: <i>Gaerne, Alpinestars, FOX, THOR.</p>
+
+            </div>
+            <!--box-container------------------->
+            <!-- <div class="box-container">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+
+                        <div class="box-1">
+                            <p>Адыгея</p>
+                        </div>
+
+                    </li>
+                    <li class="item-b">
+
+                        <div class="box-2">
+                            <p>Краснодарский край</p>
+                        </div>
+
+                    </li>
+                    <li class="item-c">
+
+                        <div class="box-3">
+                            <p>Адыгея</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div> -->
+            <div class="arrow-down">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           
+
+                 <div class="animate">
+            <a href="https://www.youtube.com/watch?v=KTx1aijM-0g" target="blank">
+                <img class="one" src="/img/enduro1.png" alt="">
+                <img class="two" src="img/enduro22.png" alt="">
+            </a>
+        </div>
+
+            <footer>
+              
+                <div class="copyright">Copyright By PiterPaper 2021</div>
+                <div class="social-icons">
+                    <a href=" https://vk.com/pro.enduro" target="_blank"><i class="vk-icon"><img src="img/vk-icon.png" style="width: 40px" title="Вконтакте" ></i></a>
+                    <a href="https://instagram.com/pro.enduro_?igshid=atmasdeapwog" target="_blank"><i class="ins-icon"><img src="img/ins-icons.png" style="width: 30px;" title="Инстаграм"></i></a>
+                    <a href="https://www.youtube.com/watch?v=KTx1aijM-0g" target="_blank"><i class="youtube-icon"><img src="img/youtube.png" style="width: 47px;" title="YouTube"></i></a>
+            </div>
+
+            </footer>
+
+        </section>
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        //scroll
+        $('#fullpage').fullpage();
+
+        // slider
+        $(document).ready(function() {
+            $('#autoWidth').lightSlider({
+                autoWidth: true,
+                loop: true,
+                onSliderLoad: function() {
+                    $('#autoWidth').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
